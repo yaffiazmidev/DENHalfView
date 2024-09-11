@@ -13,8 +13,11 @@ let package = Package(
             name: "DENHalfView",
             targets: ["DENHalfView"]),
     ],
+    dependencies: [],
     targets: [
         .target(
             name: "DENHalfView")
-    ]
+    ],
+    
+    swiftLanguageVersions: [.v5]
 )
