@@ -18,7 +18,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yaffiazmidev/DENHalfView", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/yaffiazmidev/DENHalfView.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 
